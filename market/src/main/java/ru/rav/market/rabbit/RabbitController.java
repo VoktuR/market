@@ -15,7 +15,6 @@ public class RabbitController {
 
     private final RabbitTemplate rabbitTemplate;
 
-    //1
     @PostMapping("/rabbit")
     public void sendOrder(@RequestBody OrderDto orderDto) {
         rabbitTemplate.convertAndSend("producerTopicExchange", "order", orderDto);
