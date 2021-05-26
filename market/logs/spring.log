@@ -1,0 +1,1080 @@
+2021-05-25 20:21:07.968  INFO 7664 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 7664 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 20:21:07.973  INFO 7664 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 20:21:08.014  INFO 7664 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 20:21:08.014  INFO 7664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 20:21:08.014  INFO 7664 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 20:21:09.041  INFO 7664 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$c57b3701] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 20:21:09.097  INFO 7664 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 20:21:09.524  INFO 7664 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 20:21:09.533  INFO 7664 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 20:21:09.534  INFO 7664 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 20:21:09.620  INFO 7664 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 20:21:09.620  INFO 7664 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1605 ms
+2021-05-25 20:21:09.742  INFO 7664 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 20:21:09.854  INFO 7664 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 20:21:09.932  INFO 7664 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.046s)
+2021-05-25 20:21:09.941  INFO 7664 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 20:21:09.942  INFO 7664 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 20:21:09.975  INFO 7664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 20:21:10.025  INFO 7664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 20:21:10.072  INFO 7664 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 20:21:10.122  INFO 7664 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 20:21:10.264  INFO 7664 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 20:21:10.385  INFO 7664 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 20:21:10.910  INFO 7664 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 20:21:10.915  INFO 7664 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:21:11.213  WARN 7664 --- [restartedMain] ConfigServletWebServerApplicationContext : Exception encountered during context initialization - cancelling refresh attempt: org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController' defined in file [C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes\ru\rav\market\rabbit\RabbitController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitTemplate' defined in class path resource [ru/rav/market/rabbit/RabbitConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: ConnectionFactory is required
+2021-05-25 20:21:11.213  INFO 7664 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:21:11.216  INFO 7664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-25 20:21:11.222  INFO 7664 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-25 20:21:11.223  INFO 7664 --- [restartedMain] o.apache.catalina.core.StandardService   : Stopping service [Tomcat]
+2021-05-25 20:21:11.231  INFO 7664 --- [restartedMain] ConditionEvaluationReportLoggingListener : 
+
+Error starting ApplicationContext. To display the conditions report re-run your application with 'debug' enabled.
+2021-05-25 20:21:11.248 ERROR 7664 --- [restartedMain] o.s.boot.SpringApplication               : Application run failed
+
+org.springframework.beans.factory.UnsatisfiedDependencyException: Error creating bean with name 'rabbitController' defined in file [C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes\ru\rav\market\rabbit\RabbitController.class]: Unsatisfied dependency expressed through constructor parameter 0; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitTemplate' defined in class path resource [ru/rav/market/rabbit/RabbitConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: ConnectionFactory is required
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:800) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.autowireConstructor(ConstructorResolver.java:229) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.autowireConstructor(AbstractAutowireCapableBeanFactory.java:1354) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBeanInstance(AbstractAutowireCapableBeanFactory.java:1204) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:564) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.preInstantiateSingletons(DefaultListableBeanFactory.java:944) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.finishBeanFactoryInitialization(AbstractApplicationContext.java:918) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.context.support.AbstractApplicationContext.refresh(AbstractApplicationContext.java:583) ~[spring-context-5.3.6.jar:5.3.6]
+	at org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext.refresh(ServletWebServerApplicationContext.java:144) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:782) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refresh(SpringApplication.java:774) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.refreshContext(SpringApplication.java:439) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:339) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1340) ~[spring-boot-2.4.5.jar:2.4.5]
+	at org.springframework.boot.SpringApplication.run(SpringApplication.java:1329) ~[spring-boot-2.4.5.jar:2.4.5]
+	at ru.rav.market.MarketApplication.main(MarketApplication.java:16) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.boot.devtools.restart.RestartLauncher.run(RestartLauncher.java:49) ~[spring-boot-devtools-2.4.5.jar:2.4.5]
+Caused by: org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'rabbitTemplate' defined in class path resource [ru/rav/market/rabbit/RabbitConfig.class]: Invocation of init method failed; nested exception is java.lang.IllegalArgumentException: ConnectionFactory is required
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1786) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.doCreateBean(AbstractAutowireCapableBeanFactory.java:602) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.createBean(AbstractAutowireCapableBeanFactory.java:524) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.lambda$doGetBean$0(AbstractBeanFactory.java:335) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultSingletonBeanRegistry.getSingleton(DefaultSingletonBeanRegistry.java:234) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.doGetBean(AbstractBeanFactory.java:333) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractBeanFactory.getBean(AbstractBeanFactory.java:208) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.config.DependencyDescriptor.resolveCandidate(DependencyDescriptor.java:276) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.doResolveDependency(DefaultListableBeanFactory.java:1380) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.DefaultListableBeanFactory.resolveDependency(DefaultListableBeanFactory.java:1300) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.resolveAutowiredArgument(ConstructorResolver.java:887) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.ConstructorResolver.createArgumentArray(ConstructorResolver.java:791) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 25 common frames omitted
+Caused by: java.lang.IllegalArgumentException: ConnectionFactory is required
+	at org.springframework.util.Assert.notNull(Assert.java:201) ~[spring-core-5.3.6.jar:5.3.6]
+	at org.springframework.amqp.rabbit.connection.RabbitAccessor.afterPropertiesSet(RabbitAccessor.java:74) ~[spring-rabbit-2.3.6.jar:2.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.invokeInitMethods(AbstractAutowireCapableBeanFactory.java:1845) ~[spring-beans-5.3.6.jar:5.3.6]
+	at org.springframework.beans.factory.support.AbstractAutowireCapableBeanFactory.initializeBean(AbstractAutowireCapableBeanFactory.java:1782) ~[spring-beans-5.3.6.jar:5.3.6]
+	... 36 common frames omitted
+
+2021-05-25 20:24:59.761  INFO 20816 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 20816 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 20:24:59.764  INFO 20816 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 20:24:59.796  INFO 20816 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 20:24:59.797  INFO 20816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 20:24:59.797  INFO 20816 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 20:25:00.651  INFO 20816 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f8e8180b] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 20:25:00.679  INFO 20816 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 20:25:00.911  INFO 20816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 20:25:00.916  INFO 20816 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 20:25:00.917  INFO 20816 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 20:25:00.975  INFO 20816 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 20:25:00.975  INFO 20816 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1178 ms
+2021-05-25 20:25:01.068  INFO 20816 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 20:25:01.129  INFO 20816 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 20:25:01.154  INFO 20816 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.014s)
+2021-05-25 20:25:01.160  INFO 20816 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 20:25:01.160  INFO 20816 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 20:25:01.178  INFO 20816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 20:25:01.212  INFO 20816 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 20:25:01.240  INFO 20816 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 20:25:01.264  INFO 20816 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 20:25:01.325  INFO 20816 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 20:25:01.388  INFO 20816 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 20:25:01.760  INFO 20816 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 20:25:01.765  INFO 20816 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:25:02.205  WARN 20816 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 20:25:02.364 DEBUG 20816 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 20:25:02.481  INFO 20816 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@403a5ac0, org.springframework.security.web.context.SecurityContextPersistenceFilter@432ccecb, org.springframework.security.web.header.HeaderWriterFilter@47bf7fb4, org.springframework.security.web.authentication.logout.LogoutFilter@12a8c7d2, ru.rav.market.security.JwtRequestFilter@2ba12590, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@1f865240, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2eeec649, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@57016fd, org.springframework.security.web.session.SessionManagementFilter@62a69c43, org.springframework.security.web.access.ExceptionTranslationFilter@5e6c2615, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@51649996]
+2021-05-25 20:25:02.574  INFO 20816 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 20:25:02.639  INFO 20816 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 20:25:02.667  INFO 20816 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 20:25:02.672 DEBUG 20816 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 20:25:02.709 DEBUG 20816 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 20:25:02.716 DEBUG 20816 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 20:25:02.858  INFO 20816 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 20:25:02.859  INFO 20816 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 20:25:02.872  INFO 20816 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 20:25:02.895  INFO 20816 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 20:25:03.026  INFO 20816 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 20:25:03.064  INFO 20816 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#10d5621e:0/SimpleConnection@6896a0f9 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54635]
+2021-05-25 20:25:03.068  INFO 20816 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:25:03.068  INFO 20816 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:25:03.112  INFO 20816 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 3.661 seconds (JVM running for 4.278)
+2021-05-25 20:28:49.064  INFO 19112 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 19112 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 20:28:49.065  INFO 19112 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 20:28:49.109  INFO 19112 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 20:28:49.110  INFO 19112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 20:28:49.110  INFO 19112 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 20:28:50.170  INFO 19112 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$762b5e2a] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 20:28:50.213  INFO 19112 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 20:28:50.484  INFO 19112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 20:28:50.490  INFO 19112 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 20:28:50.491  INFO 19112 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 20:28:50.554  INFO 19112 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 20:28:50.554  INFO 19112 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1444 ms
+2021-05-25 20:28:50.662  INFO 19112 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 20:28:50.739  INFO 19112 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 20:28:50.766  INFO 19112 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.016s)
+2021-05-25 20:28:50.771  INFO 19112 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 20:28:50.772  INFO 19112 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 20:28:50.795  INFO 19112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 20:28:50.839  INFO 19112 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 20:28:50.874  INFO 19112 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 20:28:50.902  INFO 19112 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 20:28:50.996  INFO 19112 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 20:28:51.086  INFO 19112 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 20:28:53.495  INFO 19112 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 20:28:53.503  INFO 19112 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:28:54.212  WARN 19112 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 20:28:54.466 DEBUG 19112 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 20:28:54.692  INFO 19112 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7b0e1e03, org.springframework.security.web.context.SecurityContextPersistenceFilter@54fb32a4, org.springframework.security.web.header.HeaderWriterFilter@6e013562, org.springframework.security.web.authentication.logout.LogoutFilter@546d1393, ru.rav.market.security.JwtRequestFilter@479af506, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@74953bb, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@f497232, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@498490be, org.springframework.security.web.session.SessionManagementFilter@7455a84c, org.springframework.security.web.access.ExceptionTranslationFilter@26d0ba9a, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@953b78c]
+2021-05-25 20:28:54.955  INFO 19112 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 20:28:55.028  INFO 19112 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 20:28:56.794  INFO 19112 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 20:28:56.800 DEBUG 19112 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 20:28:56.835 DEBUG 19112 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 20:28:56.841 DEBUG 19112 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 20:28:57.005  INFO 19112 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 20:28:57.006  INFO 19112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 20:28:57.024  INFO 19112 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 20:28:57.051  INFO 19112 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 20:28:57.214  INFO 19112 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 20:28:57.265  INFO 19112 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#215d5f06:0/SimpleConnection@24433aec [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54797]
+2021-05-25 20:28:57.269  INFO 19112 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:28:57.269  INFO 19112 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:28:57.312  INFO 19112 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 8.58 seconds (JVM running for 9.249)
+2021-05-25 20:30:38.354  INFO 26256 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 26256 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 20:30:38.357  INFO 26256 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 20:30:38.388  INFO 26256 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 20:30:38.389  INFO 26256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 20:30:38.389  INFO 26256 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 20:30:39.248  INFO 26256 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6439dcd5] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 20:30:39.283  INFO 26256 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 20:30:39.551  INFO 26256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 20:30:39.560  INFO 26256 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 20:30:39.560  INFO 26256 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 20:30:39.633  INFO 26256 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 20:30:39.633  INFO 26256 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1244 ms
+2021-05-25 20:30:39.722  INFO 26256 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 20:30:39.789  INFO 26256 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 20:30:39.821  INFO 26256 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.021s)
+2021-05-25 20:30:39.827  INFO 26256 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 20:30:39.828  INFO 26256 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 20:30:39.852  INFO 26256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 20:30:39.889  INFO 26256 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 20:30:39.923  INFO 26256 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 20:30:39.965  INFO 26256 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 20:30:40.070  INFO 26256 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 20:30:40.138  INFO 26256 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 20:30:40.616  INFO 26256 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 20:30:40.621  INFO 26256 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:30:41.043  WARN 26256 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 20:30:41.191 DEBUG 26256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 20:30:41.290  INFO 26256 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@50ba72ba, org.springframework.security.web.context.SecurityContextPersistenceFilter@35b99286, org.springframework.security.web.header.HeaderWriterFilter@16082023, org.springframework.security.web.authentication.logout.LogoutFilter@3c68ea0d, ru.rav.market.security.JwtRequestFilter@755f9de0, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@57911196, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@2d303426, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@36a6b8f5, org.springframework.security.web.session.SessionManagementFilter@22a90394, org.springframework.security.web.access.ExceptionTranslationFilter@571712a7, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@8880e7f]
+2021-05-25 20:30:41.366  INFO 26256 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 20:30:41.423  INFO 26256 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 20:30:41.448  INFO 26256 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 20:30:41.452 DEBUG 26256 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 20:30:41.480 DEBUG 26256 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 20:30:41.486 DEBUG 26256 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 20:30:41.627  INFO 26256 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 20:30:41.628  INFO 26256 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 20:30:41.639  INFO 26256 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 20:30:41.658  INFO 26256 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 20:30:41.774  INFO 26256 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 20:30:41.795  INFO 26256 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#5c326870:0/SimpleConnection@12685750 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 54905]
+2021-05-25 20:30:41.798  INFO 26256 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:30:41.798  INFO 26256 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:30:41.847  INFO 26256 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 3.799 seconds (JVM running for 4.446)
+2021-05-25 20:32:54.301  INFO 26256 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 20:32:54.301  INFO 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 20:32:54.302 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 20:32:54.302 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 20:32:54.302 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 20:32:54.303 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@a5a8792
+2021-05-25 20:32:54.303 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4bcdfbd0
+2021-05-25 20:32:54.303 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 20:32:54.303  INFO 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-25 20:32:54.322 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : GET "/app/rabbit", parameters={}
+2021-05-25 20:32:54.330  WARN 26256 --- [http-nio-8080-exec-2] .w.s.m.s.DefaultHandlerExceptionResolver : Resolved [org.springframework.web.HttpRequestMethodNotSupportedException: Request method 'GET' not supported]
+2021-05-25 20:32:54.330 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 405 METHOD_NOT_ALLOWED
+2021-05-25 20:32:54.333 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for GET "/app/error", parameters={}
+2021-05-25 20:32:54.336 DEBUG 26256 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-25 20:32:54.361 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 20:32:54.362 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue May 25 20:32:54 MSK 2021, status=405, error=Method Not Allowed, trace=org.springframe (truncated)...]
+2021-05-25 20:32:54.382 DEBUG 26256 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 405
+2021-05-25 20:32:59.733 DEBUG 26256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 20:32:59.734 DEBUG 26256 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 20:32:59.770 DEBUG 26256 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 20:32:59.780 DEBUG 26256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Failed to complete request: java.lang.IllegalArgumentException: SimpleMessageConverter only supports String, byte[] and Serializable payloads, received: ru.rav.market.order.dto.OrderDto
+2021-05-25 20:32:59.787 ERROR 26256 --- [http-nio-8080-exec-3] o.a.c.c.C.[.[.[.[dispatcherServlet]      : Servlet.service() for servlet [dispatcherServlet] in context with path [/app] threw exception [Request processing failed; nested exception is java.lang.IllegalArgumentException: SimpleMessageConverter only supports String, byte[] and Serializable payloads, received: ru.rav.market.order.dto.OrderDto] with root cause
+
+java.lang.IllegalArgumentException: SimpleMessageConverter only supports String, byte[] and Serializable payloads, received: ru.rav.market.order.dto.OrderDto
+	at org.springframework.amqp.support.converter.SimpleMessageConverter.createMessage(SimpleMessageConverter.java:164) ~[spring-amqp-2.3.6.jar:2.3.6]
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.createMessage(AbstractMessageConverter.java:88) ~[spring-amqp-2.3.6.jar:2.3.6]
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:70) ~[spring-amqp-2.3.6.jar:2.3.6]
+	at org.springframework.amqp.support.converter.AbstractMessageConverter.toMessage(AbstractMessageConverter.java:58) ~[spring-amqp-2.3.6.jar:2.3.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertMessageIfNecessary(RabbitTemplate.java:1799) ~[spring-rabbit-2.3.6.jar:2.3.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1114) ~[spring-rabbit-2.3.6.jar:2.3.6]
+	at org.springframework.amqp.rabbit.core.RabbitTemplate.convertAndSend(RabbitTemplate.java:1107) ~[spring-rabbit-2.3.6.jar:2.3.6]
+	at ru.rav.market.rabbit.RabbitController.sendOrder(RabbitController.java:21) ~[classes/:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method) ~[na:na]
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:62) ~[na:na]
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43) ~[na:na]
+	at java.base/java.lang.reflect.Method.invoke(Method.java:566) ~[na:na]
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:197) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:141) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:106) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:894) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:808) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1060) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:962) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1006) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:909) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:652) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:883) ~[spring-webmvc-5.3.6.jar:5.3.6]
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:733) ~[tomcat-embed-core-9.0.45.jar:4.0.FR]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:227) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:53) ~[tomcat-embed-websocket-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:113) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:327) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.invoke(FilterSecurityInterceptor.java:115) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.intercept.FilterSecurityInterceptor.doFilter(FilterSecurityInterceptor.java:81) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:119) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.access.ExceptionTranslationFilter.doFilter(ExceptionTranslationFilter.java:113) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:126) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.session.SessionManagementFilter.doFilter(SessionManagementFilter.java:81) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.authentication.AnonymousAuthenticationFilter.doFilter(AnonymousAuthenticationFilter.java:105) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter.doFilter(SecurityContextHolderAwareRequestFilter.java:149) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.savedrequest.RequestCacheAwareFilter.doFilter(RequestCacheAwareFilter.java:63) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at ru.rav.market.security.JwtRequestFilter.doFilterInternal(JwtRequestFilter.java:60) ~[classes/:na]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:103) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.authentication.logout.LogoutFilter.doFilter(LogoutFilter.java:89) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doHeadersAfter(HeaderWriterFilter.java:90) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.header.HeaderWriterFilter.doFilterInternal(HeaderWriterFilter.java:75) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:110) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.context.SecurityContextPersistenceFilter.doFilter(SecurityContextPersistenceFilter.java:80) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter.doFilterInternal(WebAsyncManagerIntegrationFilter.java:55) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.security.web.FilterChainProxy$VirtualFilterChain.doFilter(FilterChainProxy.java:336) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy.doFilterInternal(FilterChainProxy.java:211) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.security.web.FilterChainProxy.doFilter(FilterChainProxy.java:183) ~[spring-security-web-5.4.6.jar:5.4.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.invokeDelegate(DelegatingFilterProxy.java:358) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.DelegatingFilterProxy.doFilter(DelegatingFilterProxy.java:271) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:119) ~[spring-web-5.3.6.jar:5.3.6]
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:189) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:162) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:202) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:97) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:542) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:143) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:92) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:78) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:357) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:374) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 20:32:59.788 DEBUG 26256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : "ERROR" dispatch for POST "/app/error", parameters={}
+2021-05-25 20:32:59.788 DEBUG 26256 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to org.springframework.boot.autoconfigure.web.servlet.error.BasicErrorController#error(HttpServletRequest)
+2021-05-25 20:32:59.789 DEBUG 26256 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 20:32:59.789 DEBUG 26256 --- [http-nio-8080-exec-3] o.s.w.s.m.m.a.HttpEntityMethodProcessor  : Writing [{timestamp=Tue May 25 20:32:59 MSK 2021, status=500, error=Internal Server Error, trace=java.lang.Il (truncated)...]
+2021-05-25 20:32:59.791 DEBUG 26256 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Exiting from "ERROR" dispatch, status 500
+2021-05-25 20:34:14.536  INFO 26256 --- [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x11:0xf8"0x93x0x190xe30xb40x15_0xc20xf5@0xcb0x9d0x040x1b0xd10x990x9e0x0a>0x1dl>0x0a0xb90xe50xf00x121]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 20:37:58.593  INFO 8080 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 8080 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 20:37:58.596  INFO 8080 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 20:37:58.633  INFO 8080 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 20:37:58.633  INFO 8080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 20:37:58.633  INFO 8080 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 20:37:59.654  INFO 8080 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$f7841edb] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 20:37:59.693  INFO 8080 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 20:37:59.970  INFO 8080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 20:37:59.976  INFO 8080 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 20:37:59.976  INFO 8080 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 20:38:00.038  INFO 8080 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 20:38:00.038  INFO 8080 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1404 ms
+2021-05-25 20:38:00.144  INFO 8080 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 20:38:00.209  INFO 8080 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 20:38:00.234  INFO 8080 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.015s)
+2021-05-25 20:38:00.240  INFO 8080 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 20:38:00.241  INFO 8080 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 20:38:00.261  INFO 8080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 20:38:00.296  INFO 8080 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 20:38:00.327  INFO 8080 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 20:38:00.354  INFO 8080 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 20:38:00.431  INFO 8080 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 20:38:00.510  INFO 8080 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 20:38:00.945  INFO 8080 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 20:38:00.951  INFO 8080 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:38:01.424  WARN 8080 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 20:38:01.621 DEBUG 8080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 20:38:01.749  INFO 8080 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7536fb33, org.springframework.security.web.context.SecurityContextPersistenceFilter@6f621aea, org.springframework.security.web.header.HeaderWriterFilter@5b9fe7dd, org.springframework.security.web.authentication.logout.LogoutFilter@2762d74b, ru.rav.market.security.JwtRequestFilter@6710b797, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4c671afe, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@7e0b70df, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58c71fe5, org.springframework.security.web.session.SessionManagementFilter@cad4303, org.springframework.security.web.access.ExceptionTranslationFilter@464e82c4, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@543ee6de]
+2021-05-25 20:38:01.834  INFO 8080 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 20:38:01.914  INFO 8080 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 20:38:01.946  INFO 8080 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 20:38:01.953 DEBUG 8080 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 20:38:01.997 DEBUG 8080 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 20:38:02.006 DEBUG 8080 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 20:38:02.189  INFO 8080 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 20:38:02.190  INFO 8080 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 20:38:02.205  INFO 8080 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 20:38:02.230  INFO 8080 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 20:38:02.388  INFO 8080 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 20:38:02.425  INFO 8080 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#cab58b3:0/SimpleConnection@7cb6c658 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55414]
+2021-05-25 20:38:02.428  INFO 8080 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:38:02.428  INFO 8080 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:38:02.469  INFO 8080 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 4.19 seconds (JVM running for 4.858)
+2021-05-25 20:38:05.266  INFO 8080 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 20:38:05.266  INFO 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 20:38:05.266 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 20:38:05.266 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 20:38:05.266 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 20:38:05.268 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@41d77897
+2021-05-25 20:38:05.268 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@481238b5
+2021-05-25 20:38:05.268 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 20:38:05.268  INFO 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-25 20:38:05.283 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 20:38:05.286 DEBUG 8080 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 20:38:05.323 DEBUG 8080 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 20:38:05.343  INFO 8080 --- [http-nio-8080-exec-1] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 20:38:05.348 DEBUG 8080 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 20:38:05.348 DEBUG 8080 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 20:38:05.348 DEBUG 8080 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 20:44:14.519  INFO 8080 --- [http-nio-8080-exec-4] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x08f0x03V$90x7f0xf90xb90xd60xf20xabh0xc40xef:?0xcc0x0faGw0x8f0xbd0x91]0x150xdb0x870xaa_I]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 20:44:33.646  INFO 11116 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 11116 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 20:44:33.648  INFO 11116 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 20:44:33.681  INFO 11116 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 20:44:33.681  INFO 11116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 20:44:33.681  INFO 11116 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 20:44:34.545  INFO 11116 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$4be3be32] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 20:44:34.571  INFO 11116 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 20:44:34.820  INFO 11116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 20:44:34.826  INFO 11116 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 20:44:34.826  INFO 11116 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 20:44:34.884  INFO 11116 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 20:44:34.884  INFO 11116 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1202 ms
+2021-05-25 20:44:34.974  INFO 11116 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 20:44:35.036  INFO 11116 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 20:44:35.059  INFO 11116 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.013s)
+2021-05-25 20:44:35.065  INFO 11116 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 20:44:35.066  INFO 11116 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 20:44:35.085  INFO 11116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 20:44:35.119  INFO 11116 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 20:44:35.148  INFO 11116 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 20:44:35.171  INFO 11116 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 20:44:35.239  INFO 11116 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 20:44:35.303  INFO 11116 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 20:44:35.673  INFO 11116 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 20:44:35.678  INFO 11116 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 20:44:36.084  WARN 11116 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 20:44:36.217 DEBUG 11116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 20:44:36.317  INFO 11116 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@7079837d, org.springframework.security.web.context.SecurityContextPersistenceFilter@4e3000f, org.springframework.security.web.header.HeaderWriterFilter@9a4c048, org.springframework.security.web.authentication.logout.LogoutFilter@54757a41, ru.rav.market.security.JwtRequestFilter@128d8868, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fb05c56, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@4775379a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1f5e7572, org.springframework.security.web.session.SessionManagementFilter@59b69270, org.springframework.security.web.access.ExceptionTranslationFilter@6f4b31c9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4c075132]
+2021-05-25 20:44:36.383  INFO 11116 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 20:44:36.446  INFO 11116 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 20:44:36.470  INFO 11116 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 20:44:36.474 DEBUG 11116 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 20:44:36.504 DEBUG 11116 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 20:44:36.511 DEBUG 11116 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 20:44:36.640  INFO 11116 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 20:44:36.641  INFO 11116 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 20:44:36.650  INFO 11116 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 20:44:36.668  INFO 11116 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 20:44:36.782  INFO 11116 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 20:44:36.811  INFO 11116 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1915c4f5:0/SimpleConnection@37ffba74 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55603]
+2021-05-25 20:44:36.815  INFO 11116 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:44:36.815  INFO 11116 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 20:44:36.851  INFO 11116 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 3.516 seconds (JVM running for 4.143)
+2021-05-25 20:54:14.536  INFO 11116 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xc10x81)0xbae0xb1f0x9a0xa7A0xac0x18a0xbf0xd20x130xd2'R0xdb0x0c0x9bx0x97/0x1a"0xf9BT0xfb0xd9]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 21:03:15.239  INFO 26976 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 26976 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 21:03:15.241  INFO 26976 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 21:03:15.273  INFO 26976 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 21:03:15.273  INFO 26976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 21:03:15.274  INFO 26976 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 21:03:16.091  INFO 26976 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$6aa70ef2] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 21:03:16.120  INFO 26976 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 21:03:16.354  INFO 26976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 21:03:16.360  INFO 26976 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 21:03:16.360  INFO 26976 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 21:03:16.416  INFO 26976 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 21:03:16.416  INFO 26976 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1142 ms
+2021-05-25 21:03:16.517  INFO 26976 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 21:03:16.581  INFO 26976 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 21:03:16.606  INFO 26976 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.015s)
+2021-05-25 21:03:16.612  INFO 26976 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 21:03:16.613  INFO 26976 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 21:03:16.633  INFO 26976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 21:03:16.668  INFO 26976 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 21:03:16.696  INFO 26976 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 21:03:16.720  INFO 26976 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 21:03:16.791  INFO 26976 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 21:03:16.857  INFO 26976 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 21:03:17.236  INFO 26976 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 21:03:17.241  INFO 26976 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:03:17.638  WARN 26976 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 21:03:17.770 DEBUG 26976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 21:03:17.868  INFO 26976 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@3e6ead63, org.springframework.security.web.context.SecurityContextPersistenceFilter@64d7440d, org.springframework.security.web.header.HeaderWriterFilter@6e443846, org.springframework.security.web.authentication.logout.LogoutFilter@118e2760, ru.rav.market.security.JwtRequestFilter@35213652, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@fa53519, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@71ead0c9, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@40d8eb2, org.springframework.security.web.session.SessionManagementFilter@4bea6142, org.springframework.security.web.access.ExceptionTranslationFilter@555f06e9, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@79301201]
+2021-05-25 21:03:17.932  INFO 26976 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 21:03:17.989  INFO 26976 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:03:18.010  INFO 26976 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 21:03:18.015 DEBUG 26976 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 21:03:18.046 DEBUG 26976 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 21:03:18.052 DEBUG 26976 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 21:03:18.183  INFO 26976 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 21:03:18.184  INFO 26976 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 21:03:18.193  INFO 26976 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 21:03:18.211  INFO 26976 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 21:03:18.322  INFO 26976 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 21:03:18.351  INFO 26976 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6e7b156a:0/SimpleConnection@7a655b5 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 55993]
+2021-05-25 21:03:18.354  INFO 26976 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:03:18.354  INFO 26976 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:03:18.390  INFO 26976 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 3.431 seconds (JVM running for 4.059)
+2021-05-25 21:04:14.533  INFO 26976 --- [http-nio-8080-exec-1] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030xb3.50xd40x1cL0xbf0xf30x9bd.h(0xee0xdeqS)0xfe0x8d00x97Z]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 21:04:14.549  INFO 26976 --- [http-nio-8080-exec-2] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x03q0xf40xc80xc4H0xb40xa80xddPG0xe8E0xd2|0xe1d0x850x910x050x000xeeY0xfb@0x980xaa0x960x03aeG0x83]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 21:19:17.659  INFO 26976 --- [http-nio-8080-exec-6] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 21:19:17.660  INFO 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 21:19:17.660 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 21:19:17.660 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 21:19:17.660 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 21:19:17.661 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5966f662
+2021-05-25 21:19:17.661 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@28eff491
+2021-05-25 21:19:17.661 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 21:19:17.661  INFO 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-25 21:19:17.678 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:19:17.682 DEBUG 26976 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:19:17.726 DEBUG 26976 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:19:17.748  INFO 26976 --- [http-nio-8080-exec-6] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:19:17.753 DEBUG 26976 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:19:17.753 DEBUG 26976 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:19:17.754 DEBUG 26976 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:22:42.718 DEBUG 26976 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:22:42.719 DEBUG 26976 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:22:42.721 DEBUG 26976 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:22:42.722  INFO 26976 --- [http-nio-8080-exec-7] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:22:42.723 DEBUG 26976 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:22:42.723 DEBUG 26976 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:22:42.723 DEBUG 26976 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:24:14.895 DEBUG 26976 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:24:14.895 DEBUG 26976 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:24:14.896 DEBUG 26976 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:24:14.897  INFO 26976 --- [http-nio-8080-exec-4] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:24:14.898 DEBUG 26976 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:24:14.899 DEBUG 26976 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:24:14.899 DEBUG 26976 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:29:06.509  INFO 26712 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 26712 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 21:29:06.511  INFO 26712 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 21:29:06.548  INFO 26712 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 21:29:06.548  INFO 26712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 21:29:06.549  INFO 26712 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 21:29:07.477  INFO 26712 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$7e9fd0a7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 21:29:07.509  INFO 26712 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 21:29:07.799  INFO 26712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 21:29:07.806  INFO 26712 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 21:29:07.807  INFO 26712 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 21:29:07.872  INFO 26712 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 21:29:07.873  INFO 26712 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1324 ms
+2021-05-25 21:29:07.970  INFO 26712 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 21:29:08.043  INFO 26712 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 21:29:08.073  INFO 26712 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.019s)
+2021-05-25 21:29:08.078  INFO 26712 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 21:29:08.079  INFO 26712 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 21:29:08.102  INFO 26712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 21:29:08.142  INFO 26712 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 21:29:08.172  INFO 26712 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 21:29:08.198  INFO 26712 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 21:29:08.280  INFO 26712 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 21:29:08.353  INFO 26712 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 21:29:08.776  INFO 26712 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 21:29:08.781  INFO 26712 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:29:09.222  WARN 26712 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 21:29:09.378 DEBUG 26712 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 21:29:09.495  INFO 26712 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@77ef1225, org.springframework.security.web.context.SecurityContextPersistenceFilter@2793ea76, org.springframework.security.web.header.HeaderWriterFilter@326fa98e, org.springframework.security.web.authentication.logout.LogoutFilter@5713d9af, ru.rav.market.security.JwtRequestFilter@58e8d097, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@103e63d2, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@c01eccf, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@65c6c2a3, org.springframework.security.web.session.SessionManagementFilter@40fbce3b, org.springframework.security.web.access.ExceptionTranslationFilter@408e4327, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@76e33fa3]
+2021-05-25 21:29:09.571  INFO 26712 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 21:29:09.633  INFO 26712 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:29:09.658  INFO 26712 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 21:29:09.663 DEBUG 26712 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 21:29:09.695 DEBUG 26712 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 21:29:09.702 DEBUG 26712 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 21:29:09.881  INFO 26712 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 21:29:09.882  INFO 26712 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 21:29:09.892  INFO 26712 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 21:29:09.913  INFO 26712 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 21:29:10.046  INFO 26712 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 21:29:10.078  INFO 26712 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#555c24a4:0/SimpleConnection@5adcb220 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56600]
+2021-05-25 21:29:10.083  INFO 26712 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:29:10.083  INFO 26712 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:29:10.125  INFO 26712 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 3.929 seconds (JVM running for 4.595)
+2021-05-25 21:29:15.450  INFO 26712 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 21:29:15.450  INFO 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 21:29:15.450 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 21:29:15.450 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 21:29:15.450 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 21:29:15.451 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@2f284f6f
+2021-05-25 21:29:15.452 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@25b7e346
+2021-05-25 21:29:15.452 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 21:29:15.452  INFO 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-25 21:29:15.466 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:29:15.472 DEBUG 26712 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:29:15.520 DEBUG 26712 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:29:15.542  INFO 26712 --- [http-nio-8080-exec-1] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:29:15.548 DEBUG 26712 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:29:15.548 DEBUG 26712 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:29:15.549 DEBUG 26712 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:30:55.316  INFO 27632 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 27632 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 21:30:55.320  INFO 27632 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 21:30:55.377  INFO 27632 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 21:30:55.377  INFO 27632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 21:30:55.378  INFO 27632 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 21:30:56.450  INFO 27632 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$e0dcfecd] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 21:30:56.487  INFO 27632 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 21:30:56.808  INFO 27632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 21:30:56.815  INFO 27632 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 21:30:56.816  INFO 27632 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 21:30:56.888  INFO 27632 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 21:30:56.888  INFO 27632 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1510 ms
+2021-05-25 21:30:57.014  INFO 27632 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 21:30:57.093  INFO 27632 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 21:30:57.121  INFO 27632 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.016s)
+2021-05-25 21:30:57.130  INFO 27632 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 21:30:57.130  INFO 27632 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 21:30:57.154  INFO 27632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 21:30:57.192  INFO 27632 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 21:30:57.228  INFO 27632 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 21:30:57.263  INFO 27632 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 21:30:57.350  INFO 27632 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 21:30:57.426  INFO 27632 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 21:30:57.877  INFO 27632 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 21:30:57.883  INFO 27632 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:30:58.422  WARN 27632 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 21:30:58.596 DEBUG 27632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 21:30:58.723  INFO 27632 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@68e73d8b, org.springframework.security.web.context.SecurityContextPersistenceFilter@555545c8, org.springframework.security.web.header.HeaderWriterFilter@3a7da7b1, org.springframework.security.web.authentication.logout.LogoutFilter@4be2384a, ru.rav.market.security.JwtRequestFilter@326b3784, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@61ef84b7, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@314c222f, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@23382b77, org.springframework.security.web.session.SessionManagementFilter@62539ac7, org.springframework.security.web.access.ExceptionTranslationFilter@108a5014, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@7fe4f019]
+2021-05-25 21:30:58.809  INFO 27632 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 21:30:58.882  INFO 27632 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:30:58.911  INFO 27632 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 21:30:58.916 DEBUG 27632 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 21:30:58.955 DEBUG 27632 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 21:30:58.964 DEBUG 27632 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 21:30:59.147  INFO 27632 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 21:30:59.148  INFO 27632 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 21:30:59.159  INFO 27632 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 21:30:59.183  INFO 27632 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 21:30:59.353  INFO 27632 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 21:30:59.375  INFO 27632 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1f234448:0/SimpleConnection@1808b4db [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56662]
+2021-05-25 21:30:59.378  INFO 27632 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:30:59.378  INFO 27632 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:30:59.424  INFO 27632 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 4.444 seconds (JVM running for 5.703)
+2021-05-25 21:31:02.699  INFO 27632 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 21:31:02.700  INFO 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 21:31:02.700 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 21:31:02.700 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 21:31:02.700 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 21:31:02.701 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@71cf5fa2
+2021-05-25 21:31:02.701 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@69a35f76
+2021-05-25 21:31:02.701 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 21:31:02.701  INFO 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 1 ms
+2021-05-25 21:31:02.721 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:31:02.726 DEBUG 27632 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:31:02.781 DEBUG 27632 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:31:28.086  INFO 27632 --- [http-nio-8080-exec-1] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:31:28.094 DEBUG 27632 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:31:28.094 DEBUG 27632 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:31:28.095 DEBUG 27632 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:32:23.952 DEBUG 27632 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:32:23.952 DEBUG 27632 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:32:23.953 DEBUG 27632 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:32:23.954  INFO 27632 --- [http-nio-8080-exec-3] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:32:23.955 DEBUG 27632 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:32:23.955 DEBUG 27632 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:32:23.955 DEBUG 27632 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:32:31.760  INFO 27632 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-05-25 21:32:32.582  INFO 27632 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-05-25 21:32:32.583  INFO 27632 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-05-25 21:32:33.585  INFO 27632 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-05-25 21:32:33.698  INFO 27632 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2021-05-25 21:32:33.698  INFO 27632 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2021-05-25 21:32:33.699  INFO 27632 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:32:33.707  INFO 27632 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:32:33.709  INFO 27632 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-25 21:32:33.714  INFO 27632 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-25 21:32:37.333  INFO 28208 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 28208 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 21:32:37.336  INFO 28208 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 21:32:37.373  INFO 28208 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 21:32:37.373  INFO 28208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 21:32:37.373  INFO 28208 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 21:32:38.318  INFO 28208 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$1862b382] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 21:32:38.351  INFO 28208 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 21:32:38.637  INFO 28208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 21:32:38.645  INFO 28208 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 21:32:38.645  INFO 28208 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 21:32:38.711  INFO 28208 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 21:32:38.712  INFO 28208 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1338 ms
+2021-05-25 21:32:38.830  INFO 28208 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 21:32:38.907  INFO 28208 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 21:32:38.935  INFO 28208 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.017s)
+2021-05-25 21:32:38.942  INFO 28208 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 21:32:38.942  INFO 28208 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 21:32:38.966  INFO 28208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 21:32:39.005  INFO 28208 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 21:32:39.035  INFO 28208 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 21:32:39.062  INFO 28208 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 21:32:39.133  INFO 28208 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 21:32:39.217  INFO 28208 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 21:32:39.657  INFO 28208 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 21:32:39.663  INFO 28208 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:32:40.112  WARN 28208 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 21:32:40.260 DEBUG 28208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 21:32:40.372  INFO 28208 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@45530d04, org.springframework.security.web.context.SecurityContextPersistenceFilter@6657693a, org.springframework.security.web.header.HeaderWriterFilter@152135a7, org.springframework.security.web.authentication.logout.LogoutFilter@5f132edf, ru.rav.market.security.JwtRequestFilter@13a44c66, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@43011681, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@432965e4, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@58fc8dc9, org.springframework.security.web.session.SessionManagementFilter@1c95658e, org.springframework.security.web.access.ExceptionTranslationFilter@1a662bc6, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@313040e8]
+2021-05-25 21:32:40.449  INFO 28208 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 21:32:40.515  INFO 28208 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:32:40.541  INFO 28208 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 21:32:40.546 DEBUG 28208 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 21:32:40.578 DEBUG 28208 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 21:32:40.585 DEBUG 28208 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 21:32:40.754  INFO 28208 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 21:32:40.755  INFO 28208 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 21:32:40.765  INFO 28208 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 21:32:40.788  INFO 28208 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 21:32:40.946  INFO 28208 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 21:32:40.977  INFO 28208 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#1964f9f6:0/SimpleConnection@34d3a0d1 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 56718]
+2021-05-25 21:32:40.981  INFO 28208 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:32:40.981  INFO 28208 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:32:41.019  INFO 28208 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 4.005 seconds (JVM running for 4.7)
+2021-05-25 21:32:43.497  INFO 28208 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 21:32:43.497  INFO 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 21:32:43.498 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 21:32:43.498 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 21:32:43.498 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 21:32:43.499 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@41755370
+2021-05-25 21:32:43.499 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@6182d12e
+2021-05-25 21:32:43.499 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 21:32:43.499  INFO 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 2 ms
+2021-05-25 21:32:43.517 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:32:43.521 DEBUG 28208 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:32:43.564 DEBUG 28208 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:32:43.587  INFO 28208 --- [http-nio-8080-exec-2] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:32:43.593 DEBUG 28208 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:32:43.593 DEBUG 28208 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:32:43.594 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:32:49.526 DEBUG 28208 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:32:49.526 DEBUG 28208 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:32:49.526 DEBUG 28208 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:32:49.527  INFO 28208 --- [http-nio-8080-exec-3] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:32:49.527 DEBUG 28208 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:32:49.527 DEBUG 28208 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:32:49.528 DEBUG 28208 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:49.131 DEBUG 28208 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:49.132 DEBUG 28208 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:49.132 DEBUG 28208 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:49.133  INFO 28208 --- [http-nio-8080-exec-4] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:49.133 DEBUG 28208 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:49.133 DEBUG 28208 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:49.134 DEBUG 28208 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:49.828 DEBUG 28208 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:49.829 DEBUG 28208 --- [http-nio-8080-exec-5] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:49.830 DEBUG 28208 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:49.830  INFO 28208 --- [http-nio-8080-exec-5] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:49.830 DEBUG 28208 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:49.830 DEBUG 28208 --- [http-nio-8080-exec-5] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:49.830 DEBUG 28208 --- [http-nio-8080-exec-5] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:50.174 DEBUG 28208 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:50.175 DEBUG 28208 --- [http-nio-8080-exec-6] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:50.176 DEBUG 28208 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:50.176  INFO 28208 --- [http-nio-8080-exec-6] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:50.176 DEBUG 28208 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:50.176 DEBUG 28208 --- [http-nio-8080-exec-6] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:50.177 DEBUG 28208 --- [http-nio-8080-exec-6] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:51.395 DEBUG 28208 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:51.396 DEBUG 28208 --- [http-nio-8080-exec-7] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:51.397 DEBUG 28208 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:51.398  INFO 28208 --- [http-nio-8080-exec-7] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:51.398 DEBUG 28208 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:51.398 DEBUG 28208 --- [http-nio-8080-exec-7] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:51.398 DEBUG 28208 --- [http-nio-8080-exec-7] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:51.960 DEBUG 28208 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:51.960 DEBUG 28208 --- [http-nio-8080-exec-8] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:51.961 DEBUG 28208 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:51.961  INFO 28208 --- [http-nio-8080-exec-8] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:51.962 DEBUG 28208 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:51.962 DEBUG 28208 --- [http-nio-8080-exec-8] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:51.962 DEBUG 28208 --- [http-nio-8080-exec-8] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:55.401 DEBUG 28208 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:55.402 DEBUG 28208 --- [http-nio-8080-exec-9] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:55.403 DEBUG 28208 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:55.404  INFO 28208 --- [http-nio-8080-exec-9] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:55.405 DEBUG 28208 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:55.405 DEBUG 28208 --- [http-nio-8080-exec-9] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:55.405 DEBUG 28208 --- [http-nio-8080-exec-9] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:55.722 DEBUG 28208 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:55.722 DEBUG 28208 --- [http-nio-8080-exec-10] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:55.724 DEBUG 28208 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:55.724  INFO 28208 --- [http-nio-8080-exec-10] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:55.725 DEBUG 28208 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:55.725 DEBUG 28208 --- [http-nio-8080-exec-10] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:55.726 DEBUG 28208 --- [http-nio-8080-exec-10] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:56.214 DEBUG 28208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:56.215 DEBUG 28208 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:56.215 DEBUG 28208 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:56.215  INFO 28208 --- [http-nio-8080-exec-1] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:56.216 DEBUG 28208 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:56.216 DEBUG 28208 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:56.217 DEBUG 28208 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:59.517 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:59.517 DEBUG 28208 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:59.518 DEBUG 28208 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:59.519  INFO 28208 --- [http-nio-8080-exec-2] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:59.519 DEBUG 28208 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:59.520 DEBUG 28208 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:59.520 DEBUG 28208 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:33:59.940 DEBUG 28208 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:33:59.941 DEBUG 28208 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:33:59.941 DEBUG 28208 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:33:59.942  INFO 28208 --- [http-nio-8080-exec-3] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:33:59.942 DEBUG 28208 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:33:59.942 DEBUG 28208 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:33:59.942 DEBUG 28208 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:34:00.268 DEBUG 28208 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:34:00.269 DEBUG 28208 --- [http-nio-8080-exec-4] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:34:00.270 DEBUG 28208 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:34:00.270  INFO 28208 --- [http-nio-8080-exec-4] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:34:00.271 DEBUG 28208 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:34:00.271 DEBUG 28208 --- [http-nio-8080-exec-4] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:34:00.271 DEBUG 28208 --- [http-nio-8080-exec-4] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:34:14.516  INFO 28208 --- [http-nio-8080-exec-5] o.apache.coyote.http11.Http11Processor   : Error parsing HTTP request header
+ Note: further occurrences of HTTP request parsing errors will be logged at DEBUG level.
+
+java.lang.IllegalArgumentException: Invalid character found in method name [0x160x030x010x020x000x010x000x010xfc0x030x030x0e0xb20x0a0x0d0x16C0xbcBf_K0xb50xa9J0xccNTJ~0xfbn0x060xe50x820x170x810x8d0xf50xd40xa5t0xdd]. HTTP method names must be tokens
+	at org.apache.coyote.http11.Http11InputBuffer.parseRequestLine(Http11InputBuffer.java:417) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:261) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:65) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:893) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1707) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) ~[na:na]
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) ~[na:na]
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61) ~[tomcat-embed-core-9.0.45.jar:9.0.45]
+	at java.base/java.lang.Thread.run(Thread.java:834) ~[na:na]
+
+2021-05-25 21:54:59.677  INFO 15252 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 15252 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 21:54:59.679  INFO 15252 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 21:54:59.722  INFO 15252 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 21:54:59.723  INFO 15252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 21:54:59.723  INFO 15252 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 21:55:00.764  INFO 15252 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$9b88aad7] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 21:55:00.801  INFO 15252 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 21:55:01.114  INFO 15252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 21:55:01.121  INFO 15252 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 21:55:01.121  INFO 15252 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 21:55:01.202  INFO 15252 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 21:55:01.202  INFO 15252 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1478 ms
+2021-05-25 21:55:01.321  INFO 15252 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 21:55:01.401  INFO 15252 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 21:55:01.433  INFO 15252 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.018s)
+2021-05-25 21:55:01.440  INFO 15252 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 21:55:01.441  INFO 15252 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 21:55:01.464  INFO 15252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 21:55:01.503  INFO 15252 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 21:55:01.535  INFO 15252 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 21:55:01.574  INFO 15252 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 21:55:01.665  INFO 15252 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 21:55:01.743  INFO 15252 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 21:55:02.205  INFO 15252 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 21:55:02.212  INFO 15252 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:55:02.740  WARN 15252 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 21:55:02.917 DEBUG 15252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 21:55:03.051  INFO 15252 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@6b369446, org.springframework.security.web.context.SecurityContextPersistenceFilter@3e30ac54, org.springframework.security.web.header.HeaderWriterFilter@72eac462, org.springframework.security.web.authentication.logout.LogoutFilter@1cfbac57, ru.rav.market.security.JwtRequestFilter@7f5d6bd3, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@2f0cbe22, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@70cdadc5, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@1a340173, org.springframework.security.web.session.SessionManagementFilter@332bf3f3, org.springframework.security.web.access.ExceptionTranslationFilter@33254997, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@3011294e]
+2021-05-25 21:55:03.142  INFO 15252 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 21:55:03.243  INFO 15252 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:55:03.283  INFO 15252 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 21:55:03.291 DEBUG 15252 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 21:55:03.349 DEBUG 15252 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 21:55:03.359 DEBUG 15252 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 21:55:03.547  INFO 15252 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 21:55:03.548  INFO 15252 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 21:55:03.562  INFO 15252 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 21:55:03.588  INFO 15252 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 21:55:03.753  INFO 15252 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 21:55:03.781  INFO 15252 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#aae28a9:0/SimpleConnection@6b1ea8e0 [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57146]
+2021-05-25 21:55:03.784  INFO 15252 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:55:03.785  INFO 15252 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:55:03.828  INFO 15252 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 4.516 seconds (JVM running for 5.332)
+2021-05-25 21:55:10.915  INFO 15252 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 21:55:10.916  INFO 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 21:55:10.916 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 21:55:10.917 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 21:55:10.917 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 21:55:10.918 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@79ac74f4
+2021-05-25 21:55:10.919 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@65cc5e82
+2021-05-25 21:55:10.919 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 21:55:10.919  INFO 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-05-25 21:55:10.941 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:55:10.947 DEBUG 15252 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:55:11.000 DEBUG 15252 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:55:11.027  INFO 15252 --- [http-nio-8080-exec-2] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:55:11.034 DEBUG 15252 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:55:11.034 DEBUG 15252 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:55:11.036 DEBUG 15252 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:55:23.721 DEBUG 15252 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:55:23.722 DEBUG 15252 --- [http-nio-8080-exec-3] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:55:23.724 DEBUG 15252 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:55:23.726  INFO 15252 --- [http-nio-8080-exec-3] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:55:23.726 DEBUG 15252 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:55:23.727 DEBUG 15252 --- [http-nio-8080-exec-3] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:55:41.484 DEBUG 15252 --- [http-nio-8080-exec-3] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:56:13.107  INFO 15252 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-05-25 21:56:14.082  INFO 15252 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-05-25 21:56:14.083  INFO 15252 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Waiting for workers to finish.
+2021-05-25 21:56:15.091  INFO 15252 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Successfully waited for workers to finish.
+2021-05-25 21:56:15.192  INFO 15252 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2021-05-25 21:56:15.192  INFO 15252 --- [SpringContextShutdownHook] o.s.a.r.l.SimpleMessageListenerContainer : Shutdown ignored - container is not active already
+2021-05-25 21:56:15.193  INFO 15252 --- [SpringContextShutdownHook] o.s.s.concurrent.ThreadPoolTaskExecutor  : Shutting down ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:56:15.200  INFO 15252 --- [SpringContextShutdownHook] j.LocalContainerEntityManagerFactoryBean : Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:56:15.204  INFO 15252 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown initiated...
+2021-05-25 21:56:15.208  INFO 15252 --- [SpringContextShutdownHook] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Shutdown completed.
+2021-05-25 21:59:23.567  INFO 7064 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 7064 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 21:59:23.573  INFO 7064 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 21:59:23.620  INFO 7064 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 21:59:23.621  INFO 7064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 21:59:23.621  INFO 7064 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 21:59:24.637  INFO 7064 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$8ab5dc10] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 21:59:24.671  INFO 7064 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 21:59:24.962  INFO 7064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 21:59:24.969  INFO 7064 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 21:59:24.969  INFO 7064 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 21:59:25.037  INFO 7064 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 21:59:25.037  INFO 7064 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1415 ms
+2021-05-25 21:59:25.140  INFO 7064 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 21:59:25.214  INFO 7064 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 21:59:25.245  INFO 7064 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.018s)
+2021-05-25 21:59:25.250  INFO 7064 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 21:59:25.251  INFO 7064 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 21:59:25.277  INFO 7064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 21:59:25.315  INFO 7064 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 21:59:25.346  INFO 7064 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 21:59:25.374  INFO 7064 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 21:59:25.457  INFO 7064 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 21:59:25.529  INFO 7064 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 21:59:25.959  INFO 7064 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 21:59:25.965  INFO 7064 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 21:59:26.433  WARN 7064 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 21:59:26.603 DEBUG 7064 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 21:59:26.731  INFO 7064 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@15ce8697, org.springframework.security.web.context.SecurityContextPersistenceFilter@4af3b324, org.springframework.security.web.header.HeaderWriterFilter@3efc6ad8, org.springframework.security.web.authentication.logout.LogoutFilter@321a3d5b, ru.rav.market.security.JwtRequestFilter@4d56848a, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@ef3a77b, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@37e2a88a, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@6fa73141, org.springframework.security.web.session.SessionManagementFilter@60d812c3, org.springframework.security.web.access.ExceptionTranslationFilter@4d6b610d, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@4b3d5392]
+2021-05-25 21:59:26.813  INFO 7064 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 21:59:26.884  INFO 7064 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 21:59:26.914  INFO 7064 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 21:59:26.919 DEBUG 7064 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 21:59:26.956 DEBUG 7064 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 21:59:26.965 DEBUG 7064 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 21:59:27.145  INFO 7064 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 21:59:27.146  INFO 7064 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 21:59:27.157  INFO 7064 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 21:59:27.189  INFO 7064 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 21:59:27.334  INFO 7064 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 21:59:27.357  INFO 7064 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#18c49750:0/SimpleConnection@42f0bbdb [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57240]
+2021-05-25 21:59:27.360  INFO 7064 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:59:27.361  INFO 7064 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 21:59:27.415  INFO 7064 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 4.249 seconds (JVM running for 4.945)
+2021-05-25 21:59:30.168  INFO 7064 --- [http-nio-8080-exec-1] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 21:59:30.170  INFO 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 21:59:30.171 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 21:59:30.172 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 21:59:30.172 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 21:59:30.174 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@8a5a850
+2021-05-25 21:59:30.174 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@3c9c1e36
+2021-05-25 21:59:30.174 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 21:59:30.175  INFO 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed initialization in 4 ms
+2021-05-25 21:59:30.195 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 21:59:30.199 DEBUG 7064 --- [http-nio-8080-exec-1] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 21:59:30.247 DEBUG 7064 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 21:59:30.275  INFO 7064 --- [http-nio-8080-exec-1] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 21:59:30.281 DEBUG 7064 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 21:59:30.282 DEBUG 7064 --- [http-nio-8080-exec-1] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 21:59:30.282 DEBUG 7064 --- [http-nio-8080-exec-1] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 21:59:30.288  INFO 7064 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] r.r.m.rabbit.producer.RabbitProducer     : 111 is processed
+2021-05-25 22:00:54.152  INFO 26424 --- [restartedMain] ru.rav.market.MarketApplication          : Starting MarketApplication using Java 11.0.10 on LAPTOP-2U314JH6 with PID 26424 (C:\Users\rav05\OneDrive\Desktop\market-gb\market\target\classes started by rav05 in C:\Users\rav05\OneDrive\Desktop\market-gb\market)
+2021-05-25 22:00:54.155  INFO 26424 --- [restartedMain] ru.rav.market.MarketApplication          : No active profile set, falling back to default profiles: default
+2021-05-25 22:00:54.192  INFO 26424 --- [restartedMain] o.s.b.devtools.restart.ChangeableUrls    : The Class-Path manifest attribute in C:\Users\rav05\.m2\repository\org\glassfish\jaxb\jaxb-runtime\2.3.1\jaxb-runtime-2.3.1.jar referenced one or more files that do not exist: file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/jaxb-api-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/txw2-2.3.1.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/istack-commons-runtime-3.0.7.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/stax-ex-1.8.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/FastInfoset-1.2.15.jar,file:/C:/Users/rav05/.m2/repository/org/glassfish/jaxb/jaxb-runtime/2.3.1/javax.activation-api-1.2.0.jar
+2021-05-25 22:00:54.192  INFO 26424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-05-25 22:00:54.192  INFO 26424 --- [restartedMain] .e.DevToolsPropertyDefaultsPostProcessor : For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-05-25 22:00:55.121  INFO 26424 --- [restartedMain] trationDelegate$BeanPostProcessorChecker : Bean 'org.springframework.ws.config.annotation.DelegatingWsConfiguration' of type [org.springframework.ws.config.annotation.DelegatingWsConfiguration$$EnhancerBySpringCGLIB$$651f0484] is not eligible for getting processed by all BeanPostProcessors (for example: not eligible for auto-proxying)
+2021-05-25 22:00:55.153  INFO 26424 --- [restartedMain] .w.s.a.s.AnnotationActionEndpointMapping : Supporting [WS-Addressing August 2004, WS-Addressing 1.0]
+2021-05-25 22:00:55.442  INFO 26424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat initialized with port(s): 8080 (http)
+2021-05-25 22:00:55.448  INFO 26424 --- [restartedMain] o.apache.catalina.core.StandardService   : Starting service [Tomcat]
+2021-05-25 22:00:55.449  INFO 26424 --- [restartedMain] org.apache.catalina.core.StandardEngine  : Starting Servlet engine: [Apache Tomcat/9.0.45]
+2021-05-25 22:00:55.521  INFO 26424 --- [restartedMain] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring embedded WebApplicationContext
+2021-05-25 22:00:55.522  INFO 26424 --- [restartedMain] w.s.c.ServletWebServerApplicationContext : Root WebApplicationContext: initialization completed in 1329 ms
+2021-05-25 22:00:55.646  INFO 26424 --- [restartedMain] o.f.c.internal.license.VersionPrinter    : Flyway Community Edition 7.1.1 by Redgate
+2021-05-25 22:00:55.725  INFO 26424 --- [restartedMain] o.f.c.i.database.base.DatabaseType       : Database: jdbc:postgresql://localhost:5432/marketDB (PostgreSQL 10.12)
+2021-05-25 22:00:55.759  INFO 26424 --- [restartedMain] o.f.core.internal.command.DbValidate     : Successfully validated 2 migrations (execution time 00:00.019s)
+2021-05-25 22:00:55.765  INFO 26424 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Current version of schema "public": 2
+2021-05-25 22:00:55.766  INFO 26424 --- [restartedMain] o.f.core.internal.command.DbMigrate      : Schema "public" is up to date. No migration necessary.
+2021-05-25 22:00:55.794  INFO 26424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Starting...
+2021-05-25 22:00:55.838  INFO 26424 --- [restartedMain] com.zaxxer.hikari.HikariDataSource       : HikariPool-1 - Start completed.
+2021-05-25 22:00:55.870  INFO 26424 --- [restartedMain] o.hibernate.jpa.internal.util.LogHelper  : HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-05-25 22:00:55.896  INFO 26424 --- [restartedMain] org.hibernate.Version                    : HHH000412: Hibernate ORM core version 5.4.30.Final
+2021-05-25 22:00:55.973  INFO 26424 --- [restartedMain] o.hibernate.annotations.common.Version   : HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-05-25 22:00:56.051  INFO 26424 --- [restartedMain] org.hibernate.dialect.Dialect            : HHH000400: Using dialect: org.hibernate.dialect.PostgreSQL10Dialect
+2021-05-25 22:00:56.499  INFO 26424 --- [restartedMain] o.h.e.t.j.p.i.JtaPlatformInitiator       : HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-05-25 22:00:56.507  INFO 26424 --- [restartedMain] j.LocalContainerEntityManagerFactoryBean : Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-05-25 22:00:57.008  WARN 26424 --- [restartedMain] JpaBaseConfiguration$JpaWebConfiguration : spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-05-25 22:00:57.167 DEBUG 26424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerMapping : 18 mappings in 'requestMappingHandlerMapping'
+2021-05-25 22:00:57.308  INFO 26424 --- [restartedMain] o.s.s.web.DefaultSecurityFilterChain     : Will secure any request with [org.springframework.security.web.context.request.async.WebAsyncManagerIntegrationFilter@55722b39, org.springframework.security.web.context.SecurityContextPersistenceFilter@4cab2708, org.springframework.security.web.header.HeaderWriterFilter@4cc00602, org.springframework.security.web.authentication.logout.LogoutFilter@1e163721, ru.rav.market.security.JwtRequestFilter@2b4760bf, org.springframework.security.web.savedrequest.RequestCacheAwareFilter@4b29c43, org.springframework.security.web.servletapi.SecurityContextHolderAwareRequestFilter@36dd7de7, org.springframework.security.web.authentication.AnonymousAuthenticationFilter@69619b73, org.springframework.security.web.session.SessionManagementFilter@6459ae45, org.springframework.security.web.access.ExceptionTranslationFilter@5a75b4b5, org.springframework.security.web.access.intercept.FilterSecurityInterceptor@311dca2b]
+2021-05-25 22:00:57.386  INFO 26424 --- [restartedMain] pertySourcedRequestMappingHandlerMapping : Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-05-25 22:00:57.454  INFO 26424 --- [restartedMain] o.s.s.concurrent.ThreadPoolTaskExecutor  : Initializing ExecutorService 'applicationTaskExecutor'
+2021-05-25 22:00:57.485  INFO 26424 --- [restartedMain] o.s.b.d.a.OptionalLiveReloadServer       : LiveReload server is running on port 35729
+2021-05-25 22:00:57.491 DEBUG 26424 --- [restartedMain] s.w.s.m.m.a.RequestMappingHandlerAdapter : ControllerAdvice beans: 0 @ModelAttribute, 0 @InitBinder, 1 RequestBodyAdvice, 1 ResponseBodyAdvice
+2021-05-25 22:00:57.527 DEBUG 26424 --- [restartedMain] o.s.w.s.handler.SimpleUrlHandlerMapping  : Patterns [/webjars/**, /**] in 'resourceHandlerMapping'
+2021-05-25 22:00:57.534 DEBUG 26424 --- [restartedMain] .m.m.a.ExceptionHandlerExceptionResolver : ControllerAdvice beans: 1 @ExceptionHandler, 1 ResponseBodyAdvice
+2021-05-25 22:00:57.706  INFO 26424 --- [restartedMain] o.s.b.w.embedded.tomcat.TomcatWebServer  : Tomcat started on port(s): 8080 (http) with context path '/app'
+2021-05-25 22:00:57.707  INFO 26424 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Context refreshed
+2021-05-25 22:00:57.719  INFO 26424 --- [restartedMain] d.s.w.p.DocumentationPluginsBootstrapper : Found 1 custom documentation plugin(s)
+2021-05-25 22:00:57.742  INFO 26424 --- [restartedMain] s.d.s.w.s.ApiListingReferenceScanner     : Scanning for api listing references
+2021-05-25 22:00:57.889  INFO 26424 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Attempting to connect to: [localhost:5672]
+2021-05-25 22:00:57.922  INFO 26424 --- [restartedMain] o.s.a.r.c.CachingConnectionFactory       : Created new connection: rabbitConnectionFactory#6259a8de:0/SimpleConnection@542e79aa [delegate=amqp://guest@127.0.0.1:5672/, localPort= 57291]
+2021-05-25 22:00:57.926  INFO 26424 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (responseOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 22:00:57.926  INFO 26424 --- [restartedMain] o.s.amqp.rabbit.core.RabbitAdmin         : Auto-declaring a non-durable, auto-delete, or exclusive Queue (requestOrderQueue) durable:false, auto-delete:false, exclusive:false. It will be redeclared if the broker stops and is restarted while the connection factory is alive, but all messages will be lost.
+2021-05-25 22:00:57.971  INFO 26424 --- [restartedMain] ru.rav.market.MarketApplication          : Started MarketApplication in 4.125 seconds (JVM running for 4.794)
+2021-05-25 22:01:00.860  INFO 26424 --- [http-nio-8080-exec-2] o.a.c.c.C.[Tomcat].[localhost].[/app]    : Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-05-25 22:01:00.861  INFO 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Initializing Servlet 'dispatcherServlet'
+2021-05-25 22:01:00.861 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected StandardServletMultipartResolver
+2021-05-25 22:01:00.861 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected AcceptHeaderLocaleResolver
+2021-05-25 22:01:00.861 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected FixedThemeResolver
+2021-05-25 22:01:00.864 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.view.DefaultRequestToViewNameTranslator@5c984725
+2021-05-25 22:01:00.864 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Detected org.springframework.web.servlet.support.SessionFlashMapManager@4c3be716
+2021-05-25 22:01:00.864 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : enableLoggingRequestDetails='false': request parameters and headers will be masked to prevent unsafe logging of potentially sensitive data
+2021-05-25 22:01:00.864  INFO 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed initialization in 3 ms
+2021-05-25 22:01:00.887 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : POST "/app/rabbit", parameters={}
+2021-05-25 22:01:00.895 DEBUG 26424 --- [http-nio-8080-exec-2] s.w.s.m.m.a.RequestMappingHandlerMapping : Mapped to ru.rav.market.rabbit.RabbitController#sendOrder(OrderDto)
+2021-05-25 22:01:00.951 DEBUG 26424 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Read "application/json;charset=UTF-8" to [OrderDto(id=111, username=A, totalPrice=5, creationDateTime=dasda)]
+2021-05-25 22:01:00.977  INFO 26424 --- [http-nio-8080-exec-2] ru.rav.market.rabbit.RabbitController    : Order was sent to third party service for processing
+2021-05-25 22:01:00.982 DEBUG 26424 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Using 'application/json', given [*/*] and supported [application/json, application/*+json, application/json, application/*+json]
+2021-05-25 22:01:00.983 DEBUG 26424 --- [http-nio-8080-exec-2] m.m.a.RequestResponseBodyMethodProcessor : Nothing to write: null body
+2021-05-25 22:01:00.984 DEBUG 26424 --- [http-nio-8080-exec-2] o.s.web.servlet.DispatcherServlet        : Completed 200 OK
+2021-05-25 22:01:00.989  INFO 26424 --- [org.springframework.amqp.rabbit.RabbitListenerEndpointContainer#1-1] r.r.m.rabbit.producer.RabbitProducer     : 111 is processed

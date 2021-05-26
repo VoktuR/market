@@ -1,0 +1,26 @@
+server:
+  servlet:
+    context-path: /app
+  port: 8080
+spring:
+  datasource:
+    url: jdbc:postgresql://localhost:5432/marketDB
+    username: postgres
+    password: postgres
+  jpa:
+    show-sql: true
+  flyway:
+    url: jdbc:postgresql://localhost:5432/marketDB
+    user: postgres
+    password: postgres
+    schemas: public
+logging:
+  level:
+    root: info
+    org:
+      springframework:
+        web: debug
+        hibernate: error
+        data: error
+  file:
+    path: logs
